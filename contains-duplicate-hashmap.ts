@@ -11,7 +11,7 @@ function containsDuplicateBruteForce(nums: number[]): boolean {
     }
     return false
 };
-//also there is a method first sort and check with two pointers time complexity will be O(n log n) it depends on which sorting algorithm u use
+//also there is a method first sort and check with two pointers time complexity will be O   (n log n) it depends on which sorting algorithm u use
 //method 2:Hash map(using key value pair set) {Time complexity:O(n) | Space complexity : O(n)}
 function containsDuplicateHashMap(nums: number[]): boolean {
     const hashMap:Record<number,boolean>={}
