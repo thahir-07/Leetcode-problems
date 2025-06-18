@@ -24,7 +24,7 @@ function productExceptSelf(nums: number[]): number[] {
     return result
 };
 
-//method 2: using post fix and prefix (Same as previous method reduced space complexity)
+//method 2: using post fix and prefix (Same as previous method reduced space complexity) {Time complexity : O(2n) = O(n) ,Space complexity : O(n)}
 function productExceptSelfImproved(nums: number[]): number[] {
     let result=new Array(nums.length).fill(1);
     let prefix=1;
